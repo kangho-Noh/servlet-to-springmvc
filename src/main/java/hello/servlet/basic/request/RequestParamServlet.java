@@ -25,8 +25,8 @@ public class RequestParamServlet extends HttpServlet {
         System.out.println("age = " + age);
         System.out.println();
 
-        System.out.println("[key 같은 복수 파라미터 조회");
-        //잘 안쓰니까 생략
+        System.out.println("[key 같은 복수 파라미터 조회]");
+        //잘 안쓰니까 생략 pdf 참고
 
 
     }
