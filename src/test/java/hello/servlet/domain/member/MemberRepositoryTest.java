@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class MemberRepositoryTest {
 
-    MemberRepository memberRepository = MemberRepository.getInstance();
+    MemberRepository memberRepository = MemberRepository.getInstance(); //싱글톤이므로 new가 아닌 getInstance()
     @AfterEach
     void afterEach(){
         memberRepository.clearStore();
