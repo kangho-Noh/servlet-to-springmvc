@@ -9,6 +9,7 @@ import java.io.IOException;
 
 public interface ControllerV2 {
 
+    //V1과 차이점은 return type이 MyView라는
     MyView process(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException;
 
 }
