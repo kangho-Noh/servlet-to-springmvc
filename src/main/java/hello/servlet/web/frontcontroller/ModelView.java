@@ -3,6 +3,8 @@ package hello.servlet.web.frontcontroller;
 import java.util.HashMap;
 import java.util.Map;
 
+import hello.servlet.domain.member.Member;
+
 public class ModelView {
 	private String viewName; //뷰의 논리적 이름
 	private Map<String, Object> model = new HashMap<>();
@@ -26,6 +28,5 @@ public class ModelView {
 	public void setModel(Map<String, Object> model) {
 		this.model = model;
 	}
-
 
 }
